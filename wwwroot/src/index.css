@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-family: "Noto Sans";
+  height: 100%;
+  background: linear-gradient(to top right, rgb(125, 218, 235) 20%, blue);
+  margin: auto;
+  color:aquamarine;
+}
+
+p{
+  margin-left: 5px;
+}
+
+
+.Head{
+  margin-left: auto;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(17, 177, 205, 0.808);
+  border-radius: 10px;
+  border-color: rgba(83, 27, 3, 0.568);
+}
+
+.CustomButton{
+  float: right;
+  transform: scale(3);
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.CustomButton:hover{
+  opacity: 0.5;
+}
+
+
+.Form{
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-flow:column;
+  padding: 1%;
+  width: 30%;
+  background-color: rgb(37, 62, 57);
+  border-radius: 10px;
+  border-color: rgba(83, 27, 3, 0.568);
+}
+
+.el{
+  margin: 5px;
+  background-color: aquamarine;
+  color:rgb(17, 23, 1);
+  border-radius: 5px;
+  border-color: black;
+}
+
+.elButton {
+  margin: auto;
+  background-color: aquamarine;
+  color:rgb(17, 23, 1);
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+}
+.elButton:hover{
+  background-color: rgba(14, 114, 81, 0.397);
+  color: aquamarine;
+}
+
+.link{
+ color:aquamarine;
+ margin-left: auto;
+}
