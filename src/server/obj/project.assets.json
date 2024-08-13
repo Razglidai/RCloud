@@ -1709,11 +1709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\RCloud.csproj",
+      "projectUniqueName": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\RCloud.csproj",
       "projectName": "RCloud",
-      "projectPath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\RCloud.csproj",
+      "projectPath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\RCloud.csproj",
       "packagesPath": "C:\\Users\\Razglidai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\obj\\",
+      "outputPath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Razglidai\\AppData\\Roaming\\NuGet\\NuGet.Config"

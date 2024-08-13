@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t0Gw/ZlUcIU=",
+  "dgSpecHash": "fmujYPfdvh4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\RCloud.csproj",
+  "projectFilePath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\RCloud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Razglidai\\.nuget\\packages\\aspose.email\\24.7.0\\aspose.email.24.7.0.nupkg.sha512",
     "C:\\Users\\Razglidai\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
