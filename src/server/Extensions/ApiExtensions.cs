@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using RCloud.DataAccess.Repositories;
+using RCloud.Services;
 public static class ApiExtensions
 {
     public static void AddApiCors(
@@ -20,17 +22,25 @@ public static class ApiExtensions
         this IServiceCollection services, 
         IConfiguration configuration){
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
+                .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
                 {
-                    options.TokenValidationParameters = new TokenValidationParameters
+                    options.TokenValidationParameters = new ()
                     {
-                        ValidateIssuer = true,
-                        ValidIssuer = AuthOptions.ISSUER,
-                        ValidateAudience = true,
-                        ValidAudience = AuthOptions.AUDIENCE,
-                        IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
-                        ValidateIssuerSigningKey = true,
+                        ValidateLifetime = false,
+                        ValidateAudience = false,
+                        ValidateIssuer = false,
+                        IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey()
                     };
                 });
+    }
+
+    public static void AddApiServices(
+        this IServiceCollection services, 
+        IConfiguration configuration
+    )
+    {
+        services.AddTransient<UserRepository>();
+        services.AddTransient<UserService>();
+
     }
 }

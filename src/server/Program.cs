@@ -10,6 +10,7 @@ services.AddScoped<UserDbContext>();
 
 ApiExtensions.AddApiCors(services, configuration);
 ApiExtensions.AddApiAuthentication(services, configuration);
+ApiExtensions.AddApiServices(services, configuration);
 
 var app = builder.Build();
 
@@ -25,6 +26,7 @@ app.UseSwaggerUI();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
 app.UseCors();
 
 app.MapControllers();

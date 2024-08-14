@@ -8,17 +8,17 @@ namespace RCloud.Models
 {
     public class User
     {
-        public User(string username, string email, string password)
+        public User(string username, string email, string hashPassword)
         {
             Username = username;
             Email = email;
-            Password = password;
+            HashPassword = hashPassword;
             RegisterTime = DateTime.UtcNow;
         }
         
         public Guid Id{ get; init; }
         public string Username{ get; set; }
-        public string Password{ get; set; }
+        public string HashPassword{ get; set; }
 
         public string Email{ get; set; }
 

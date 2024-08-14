@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RCloud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5136d42bfbd1e308156ebec550ad6aa52086d8d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+578dc6f477ea80d86e408d71a4e3848bd9d6147a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RCloud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RCloud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

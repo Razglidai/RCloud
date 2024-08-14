@@ -94,3 +94,4 @@ C:\Users\Razglidai\Documents\vscode\RCloud\src\server\obj\Debug\net8.0\scopedcss
 C:\Users\Razglidai\Documents\vscode\RCloud\src\server\obj\Debug\net8.0\RCloud.csproj.Up2Date
 C:\Users\Razglidai\Documents\vscode\RCloud\src\server\obj\Debug\net8.0\RCloud.genruntimeconfig.cache
 C:\Users\Razglidai\Documents\vscode\RCloud\src\server\obj\Debug\net8.0\ref\RCloud.dll
+C:\Users\Razglidai\Documents\vscode\RCloud\src\server\bin\Debug\net8.0\BCrypt.Net-Next.dll

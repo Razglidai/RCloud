@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fmujYPfdvh4=",
+  "dgSpecHash": "S60Lbc6MlfU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\RCloud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Razglidai\\.nuget\\packages\\aspose.email\\24.7.0\\aspose.email.24.7.0.nupkg.sha512",
+    "C:\\Users\\Razglidai\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Razglidai\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
     "C:\\Users\\Razglidai\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\Razglidai\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",
