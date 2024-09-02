@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Cookies from "js-cookie"
 import { AiOutlineUser, AiOutlineLogout } from "react-icons/ai";
-import { postData } from '../../services/data';
 
 class Layout extends Component {
   render() {
@@ -11,8 +10,6 @@ class Layout extends Component {
           <AiOutlineLogout className="CustomButton" onClick={() => {Cookies.remove("jwt"); window.location.reload()}}/>
           <AiOutlineUser className='CustomButton'/>
         </header>
-        <button onClick={() => console.log(postData())} />
-
       </div>
     )
   }

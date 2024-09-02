@@ -1,84 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\.eslintrc.cjs",
-      "PackagePath": "staticwebassets\\.eslintrc.cjs"
+      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\wwwroot\\e\\file",
+      "PackagePath": "staticwebassets\\e"
     },
     {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\.gitignore",
-      "PackagePath": "staticwebassets\\.gitignore"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\README.md",
-      "PackagePath": "staticwebassets\\README.md"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\package-lock.json",
-      "PackagePath": "staticwebassets\\package-lock.json"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\package.json",
-      "PackagePath": "staticwebassets\\package.json"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\public\\vite.svg",
-      "PackagePath": "staticwebassets\\public\\vite.svg"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\App.jsx",
-      "PackagePath": "staticwebassets\\src\\App.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\assets\\react.svg",
-      "PackagePath": "staticwebassets\\src\\assets\\react.svg"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\index.css",
-      "PackagePath": "staticwebassets\\src\\index.css"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\main.jsx",
-      "PackagePath": "staticwebassets\\src\\main.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\pages\\EmptyPage.jsx",
-      "PackagePath": "staticwebassets\\src\\pages\\EmptyPage.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\pages\\HomePage.jsx",
-      "PackagePath": "staticwebassets\\src\\pages\\HomePage.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\pages\\SigninPage.jsx",
-      "PackagePath": "staticwebassets\\src\\pages\\SigninPage.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\pages\\SignupPage.jsx",
-      "PackagePath": "staticwebassets\\src\\pages\\SignupPage.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\pages\\components\\Layout.jsx",
-      "PackagePath": "staticwebassets\\src\\pages\\components\\Layout.jsx"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\services\\user.js",
-      "PackagePath": "staticwebassets\\src\\services\\user.js"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\store\\index.js",
-      "PackagePath": "staticwebassets\\src\\store\\index.js"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\src\\store\\slices\\UserSlice.js",
-      "PackagePath": "staticwebassets\\src\\store\\slices\\UserSlice.js"
-    },
-    {
-      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\wwwroot\\vite.config.js",
-      "PackagePath": "staticwebassets\\vite.config.js"
+      "Id": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\wwwroot\\e\\sadasd",
+      "PackagePath": "staticwebassets\\e"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RCloud.Microsoft.AspNetCore.StaticWebAssets.props",

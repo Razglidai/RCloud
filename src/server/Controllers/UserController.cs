@@ -9,9 +9,11 @@ namespace RCloud.Controllers;
     public class UserController : ControllerBase
     {
         private readonly UserService _userService;
+        private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly ILogger<UserController> _logger;
-        public UserController(ILogger<UserController> logger, UserService userService)
+        public UserController(ILogger<UserController> logger, UserService userService, IWebHostEnvironment webHostEnvironment)
         {
+            _webHostEnvironment = webHostEnvironment;
             _userService = userService;
             _logger = logger;
         }
@@ -26,6 +28,7 @@ namespace RCloud.Controllers;
         [HttpPost]
         public async Task<IActionResult> SignUp([FromBody] SignUpRequest request,CancellationToken ct)
         {
+            Directory.CreateDirectory(_webHostEnvironment.WebRootPath + "/" + request.username);
             await _userService.Register(request.username, request.password, request.email);
             return Ok();
         }

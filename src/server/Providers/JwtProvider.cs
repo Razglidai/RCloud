@@ -8,7 +8,7 @@ public class JwtProvider
 {
         public string GenerateToken(User user)
         {
-            Claim[] claims = [new("userId", user.Id.ToString()), new("userEmail",user.Email)];
+            Claim[] claims = [new("userId", user.Id.ToString()), new(ClaimTypes.Name,user.Username)];
             var token = new JwtSecurityToken(
                 issuer: AuthOptions.ISSUER,
                 audience: AuthOptions.AUDIENCE,

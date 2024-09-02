@@ -40,6 +40,7 @@ public static class ApiExtensions
     )
     {
         services.AddTransient<UserRepository>();
+        services.AddTransient<DataService>();
         services.AddTransient<UserService>();
 
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oiRa/zNgqocg3gf/sEgsvJHpTpwo3hQaRWr0LlJBmjw=",
+  "Hash": "RDjoqX2dSNgfuRfxnxsmWVc+HaJCr9wXucjJMsS13E0=",
   "Source": "RCloud",
   "BasePath": "_content/RCloud",
   "Mode": "Default",
@@ -15,5 +15,44 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\wwwroot\\e\\file",
+      "SourceId": "RCloud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\wwwroot\\",
+      "BasePath": "_content/RCloud",
+      "RelativePath": "e/file",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\e\\file"
+    },
+    {
+      "Identity": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\wwwroot\\e\\sadasd",
+      "SourceId": "RCloud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Razglidai\\Documents\\vscode\\RCloud\\src\\server\\wwwroot\\",
+      "BasePath": "_content/RCloud",
+      "RelativePath": "e/sadasd",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\e\\sadasd"
+    }
+  ]
 }
