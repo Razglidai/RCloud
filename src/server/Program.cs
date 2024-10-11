@@ -18,7 +18,6 @@ using var scope = app.Services.CreateScope();
 
 
 var dbContext = scope.ServiceProvider.GetRequiredService<UserDbContext>();
-await dbContext.Database.EnsureCreatedAsync();
 
 
 app.UseSwagger();

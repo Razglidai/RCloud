@@ -1,0 +1,39 @@
+form{
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-flow:column;
+    padding: 1%;
+    width: 30%;
+    background-color: rgb(37, 62, 57);
+    border-radius: 10px;
+    border-color: rgba(83, 27, 3, 0.568);
+  }
+
+input, button{
+    margin: 5px;
+    background-color: aquamarine;
+    color:rgb(17, 23, 1);
+    border-radius: 5px;
+    border-color: black;
+  }
+
+button {
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+button:hover{
+    background-color: rgba(14, 114, 81, 0.397);
+    color: aquamarine;
+  }
+
+  Link{
+    color:aquamarine;
+    margin-left: auto;
+   }
+label
+{
+  margin:auto;
+  font-size: large;
+}

@@ -1,57 +1,23 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Link, Navigate, replace } from "react-router-dom";
-import { createUser } from '../services/user';
+import "./css/SignPage.css"
 
-class SignupPage extends Component {
-  constructor(props)
-  {
-    super(props);
-    this.state = {
-      username:"",
-      password:"",
-      email: ""
-    };
-  }
-
-  Signup()
-  {
-    if(this.state.username == "" || this.state.password == "" || this.state.email == "")
-      {
-        alert("Введите данные для регистрации");
-      }
-    else
-    {
-      console.log(
-      createUser(
-        {
-          username: this.state.username,
-          password: this.state.password,
-          email: this.state.email
-        },
-
-        () => { alert("Пользователь зарегестрирован")},
-
-        (reject) => { alert("Ошибка " + reject.response.status)}
-
-      )
-      );
-    }
-  }
-
-  render() {
+const SignupPage = () => {
+  const [name, setName] = useState();
+  const [password, setPassword] = useState();
+  const [email, setEmail] = useState();
     return (
-        <div className="Form">
-          <p>Логин</p>
-          <input type="text" onChange={e => (this.setState({username: e.target.value}))} className="el"/>
-          <p>Email</p>
-          <input type="text" onChange={e => (this.setState({email: e.target.value}))} className="el"/>
-          <p>Пароль</p>
-          <input type="text" onChange={e => (this.setState({password: e.target.value}))} className="el"/>
-          <Link to="/signin" className="link">Авторизация</Link>
-          <button type="sumbit" onClick={() => this.Signup()} className="elButton">Зарегистрироваться</button>
-        </div>
+    <div>
+    <label>Логин</label>
+    <input type="username" name='username'/>
+    <label>Email</label>
+    <input type="email" name='email'/>
+    <label>Пароль</label>
+    <input type="password" name='password'/>
+    <Link to="/signin">Авторизация</Link>
+    <button type="sumbit" onClick={(e)=>console.log(e)}>Зарегистрироваться</button>
+  </div>
     )
-  }
+  
 }
-
 export default SignupPage

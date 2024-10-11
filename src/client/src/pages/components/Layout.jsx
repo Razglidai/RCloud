@@ -1,18 +1,20 @@
-import React, { Component } from 'react'
+import {Outlet} from "react-router-dom"
 import Cookies from "js-cookie"
 import { AiOutlineUser, AiOutlineLogout } from "react-icons/ai";
 
-class Layout extends Component {
-  render() {
+const Layout = () => {
     return (
-      <div>
-        <header className='Head'>
+      <>
+        <header>
           <AiOutlineLogout className="CustomButton" onClick={() => {Cookies.remove("jwt"); window.location.reload()}}/>
           <AiOutlineUser className='CustomButton'/>
         </header>
-      </div>
+        <Outlet />
+        <footer>
+          <p>www.github.com/Razglidai</p>
+        </footer>
+      </>
     )
-  }
 }
 
 export default Layout

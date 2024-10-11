@@ -8,33 +8,9 @@ html {
   color:aquamarine;
 }
 
-p{
-  margin-left: 5px;
-}
-
-main
-{
-  display: inline-flex;
-}
-
-.ViewerBlock
-{
-  display: inline-block;
-  background-color: rgba(16, 135, 156, 0.808);
-  opacity: 0.6;
-  border-radius: 10px;
-  border-color: rgba(83, 27, 3, 0.568);
-  padding: 10px;
-  margin: 10px;
-}
-.ViewerBlock:hover
-{
-  opacity: 0.9;
-  cursor: pointer;
-}
-.Head{
+header{
   margin-left: auto;
-  display: inline-flexbox;
+  display: inline-flex;
   width: 100%;
   height: 100px;
   background-color: rgba(16, 135, 156, 0.808);
@@ -53,43 +29,4 @@ main
 
 .CustomButton:hover{
   opacity: 0.5;
-}
-
-
-.Form{
-  margin: auto;
-  margin-top: 100px;
-  display: flex;
-  flex-flow:column;
-  padding: 1%;
-  width: 30%;
-  background-color: rgb(37, 62, 57);
-  border-radius: 10px;
-  border-color: rgba(83, 27, 3, 0.568);
-}
-
-.el{
-  margin: 5px;
-  background-color: aquamarine;
-  color:rgb(17, 23, 1);
-  border-radius: 5px;
-  border-color: black;
-}
-
-.elButton {
-  margin: auto;
-  background-color: aquamarine;
-  color:rgb(17, 23, 1);
-  border-radius: 5px;
-  border-color: black;
-  cursor: pointer;
-}
-.elButton:hover{
-  background-color: rgba(14, 114, 81, 0.397);
-  color: aquamarine;
-}
-
-.link{
- color:aquamarine;
- margin-left: auto;
 }

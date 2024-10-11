@@ -10,7 +10,7 @@ export const authUser = async (signinData, resolve,reject) => {
             {
                 params: 
                 {
-                    username: signinData.username,
+                    name: signinData.name,
                     password: signinData.password
                 }
             }
